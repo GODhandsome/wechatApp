@@ -50,5 +50,12 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  onShareAppMessage: function () {
+    return {
+      title: '616四个小伙伴',
+      desc: '纪念我们的大学生活',
+      path: '/page/index'
+    }
   }
 })

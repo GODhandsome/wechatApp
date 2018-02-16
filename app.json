@@ -1,12 +1,51 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/zeng/zeng",
+    "pages/liu/liu",
+    "pages/he/he",
+    "pages/chen/chen"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTitleText": "神帅的小程序",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"#e9e9e9"
+  },
+  "tabBar": {
+    "backgroundColor":"#e9e9e9",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "616",
+        "iconPath":"icon/lol1.png",
+        "selectedIconPath": "icon/lol2.png"
+      },
+      {
+        "pagePath": "pages/zeng/zeng",
+        "text": "神帅",
+        "iconPath":"icon/Yasuo1.png",
+        "selectedIconPath":"icon/Yasuo2.png"
+      },
+      {
+        "pagePath": "pages/he/he",
+        "text": "911",
+        "iconPath": "icon/Volibear1.png",
+        "selectedIconPath": "icon/Volibear2.png"
+      },
+      {
+        "pagePath": "pages/chen/chen",
+        "text": "橘子",
+        "iconPath": "icon/Akali1.png",
+        "selectedIconPath": "icon/Akali2.png"
+      },
+      {
+        "pagePath": "pages/liu/liu",
+        "text": "爆坑",
+        "iconPath": "icon/Gnar1.png",
+        "selectedIconPath": "icon/Gnar2.png"
+      }
+    ]
   }
 }
