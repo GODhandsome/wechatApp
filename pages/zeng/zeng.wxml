@@ -1,4 +1,10 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  神帅
+  <view class="bg">
+    <image src="../../assets/img/bg.jpg" class="bgImg"/>
+  </view>
+  <view class="main ">
+    <view class="gif">
+    </view>
+  </view>
 </view>

@@ -8,8 +8,21 @@
       <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
       <block wx:else>
         <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
       </block>
+    </view>
+    <view class="content">
+      <navigator class="every one" url="/pages/zeng/zeng" open-type="switchTab">
+        <image src="../../assets/img/yasuo.jpg" class="lol" mode="scaleToFill"/>
+      </navigator>
+      <navigator class="every two" url="/pages/he/he" open-type="switchTab">
+        <image src="../../assets/img/gou.jpg" class="lol" mode="scaleToFill"/>
+      </navigator>
+      <navigator class="every three" url="/pages/chen/chen" open-type="switchTab">
+        <image src="../../assets/img/akali.jpg" class="lol" mode="scaleToFill"/>
+      </navigator>
+      <navigator class="every four" url="/pages/liu/liu" open-type="switchTab">
+        <image src="../../assets/img/naer.jpg" class="lol" mode="scaleToFill"/>
+      </navigator>
     </view>
   </view>
 </view>

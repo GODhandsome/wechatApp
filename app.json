@@ -8,13 +8,15 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarBackgroundColor": "#020621",
     "navigationBarTitleText": "神帅的小程序",
     "navigationBarTextStyle":"white",
-    "backgroundColor":"#e9e9e9"
+    "backgroundColor":"#e9e9e9",
+    "onReachBottomDistance": "0"
   },
   "tabBar": {
-    "backgroundColor":"#e9e9e9",
+    "color": "#fff",
+    "backgroundColor":"#020621",
     "list": [
       {
         "pagePath": "pages/index/index",

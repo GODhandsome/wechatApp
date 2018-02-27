@@ -1,4 +1,6 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  爆坑
+  <view class="bg">
+    <image src="../../assets/img/bg.jpg" class="bgImg"/>
+  </view>
 </view>

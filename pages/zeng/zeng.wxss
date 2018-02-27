@@ -1,1 +1,11 @@
 /* pages/zeng/zeng.wxss */
+
+.gif {
+  display: block;
+  opacity: 0.5;
+  height: 100%;
+  background: url('http://image.haha.mx/2015/09/06/middle/1937800_6ccbcc4e5d7f99fa104131e25a5d8c99_1441550179.gif');
+  background-repeat: no-repeat;
+  background-size: 178vh 100vh;
+  background-position-x: right;
+}
