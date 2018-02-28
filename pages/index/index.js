@@ -9,6 +9,13 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+  clickImg: function (e) {
+    wx.showToast({
+      title: `欢迎你,${this.data.userInfo.nickName}`,
+      icon: 'none',
+      image: '../../icon/cool.png',
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
