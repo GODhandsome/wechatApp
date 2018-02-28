@@ -3,6 +3,7 @@
   <view class="bg">
     <image src="../../assets/img/bg.jpg" class="bgImg"/>
   </view>
+  <canvas canvas-id="bg" style="width: 100%; height: 100%;"></canvas>  
   <view class="main">
     <view class="userinfo">
       <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>

@@ -1,1 +1,6 @@
 /* pages/he/he.wxss */
+
+.hegif {
+  background-image: url('https://thumbnail0.baidupcs.com/thumbnail/8237d4570cafd713f5dd7e797307ab83?fid=1856252919-250528-472579376828891&time=1519801200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-HgkKl%2FsYSre6N%2FtUxPTfBHTlVZM%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=1359713402852153791&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video');
+  background-size: 100% 100%;
+}

@@ -1,1 +1,6 @@
 /* pages/chen/chen.wxss */
+
+.chengif {
+  background-image: url('https://thumbnail0.baidupcs.com/thumbnail/7b76375510ef9eafab06e8ca21c98788?fid=1856252919-250528-486538880035744&time=1519801200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-RY6GL%2FGp1lq2%2Fjr1X7yuZw2f27Q%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=1360602120903938351&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video');
+  background-position: right center;
+}

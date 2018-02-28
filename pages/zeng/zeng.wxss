@@ -1,11 +1,5 @@
 /* pages/zeng/zeng.wxss */
 
-.gif {
-  display: block;
-  opacity: 0.5;
-  height: 100%;
-  background: url('http://image.haha.mx/2015/09/06/middle/1937800_6ccbcc4e5d7f99fa104131e25a5d8c99_1441550179.gif');
-  background-repeat: no-repeat;
-  background-size: 178vh 100vh;
-  background-position-x: right;
+.zenggif {
+  background-image: url('https://thumbnail0.baidupcs.com/thumbnail/7319ab8f4b4ed53e35f3ed07b2a08b48?fid=1856252919-250528-260828116562343&time=1519801200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-71QIBgDon8yfCZZ3otz3KSHX9%2FE%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=1360455004348521888&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video');
 }

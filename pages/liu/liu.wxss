@@ -1,1 +1,6 @@
 /* pages/liu/liu.wxss */
+
+.liugif {
+  background-image: url('https://thumbnail0.baidupcs.com/thumbnail/9158048582e551adcef73b0fe47b0fd0?fid=1856252919-250528-1081217600681451&time=1519801200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-YIQ1Z2rpOBmDPyLK7VbHyVdLj4k%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=1360395739174151943&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video');
+  background-position: center;
+}

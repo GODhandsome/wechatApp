@@ -1,6 +1,8 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  <view class="bg">
-    <image src="../../assets/img/bg.jpg" class="bgImg"/>
+  <view class="bg" />
+  <view class="main">
+    <view class="gif chengif">
+    </view>
   </view>
 </view>
