@@ -3,7 +3,7 @@
   <view class="bg" />
   <view class="main">
     <view class="gif zenggif">
-      
+      <detail />
     </view>
   </view>
 </view>
