@@ -61,6 +61,10 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-  
+    return {
+      title: '616四个小伙伴',
+      desc: '纪念我们的大学生活',
+      path: '/pages/index/index'
+    }
   }
 })

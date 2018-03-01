@@ -1,5 +1,7 @@
 /* pages/zeng/zeng.wxss */
 
 .zenggif {
-  background-image: url('http://pic.suiyiyun.cn/598513/2cf5e0fe9925bc31d3c13df25cdf8db1cb13703f%20(1).gif');
+  background-image: url('https://ws1.sinaimg.cn/large/8fecd030gy1foxheu6s07g20b306oe82.jpg');
+  background-size: 100vw 100vh;
+  background-position: right ;
 }

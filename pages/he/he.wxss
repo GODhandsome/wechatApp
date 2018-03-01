@@ -1,6 +1,7 @@
 /* pages/he/he.wxss */
 
 .hegif {
-  background-image: url('http://bmvoqk.img48.wal8.com/img48/17287098_20180301142035/15198854268.gif');
-  background-size: 100% 100%;
+  background-image: url('https://ws1.sinaimg.cn/large/8fecd030gy1foxhexuwbng206c05ru0x.jpg');
+  background-size: 105vw 100vh;
+  background-position: center;
 }
