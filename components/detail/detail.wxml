@@ -1,4 +1,22 @@
 
-  <scroll-view scroll-y="true">
-    12321313
-  </scroll-view>
+  <view class="scroll" animation="{{animationScroll}}">
+    <view class="item">
+      <image src="{{info.img}}" class="avator"/>
+    </view>
+    <slot />
+    <view class="left">
+      <image src="../../assets/img/left.png" class="leftimg" bindtap="tapLeft" animation="{{animationRotate}}"/>
+    </view>
+    <scroll-view scroll-y="true" scroll-with-animation="true"  bindscrolltolower="handleBottom" lower-threshold="0" class="scrollView">
+      <view class="title">
+        {{info.name}} : {{info.speciality}}
+        <view wx:if="{{info.habits}}">
+          擅长 : {{info.habits}}
+        </view>
+      </view>
+      
+      <view class="content">
+        {{info.desc}}
+      </view>
+    </scroll-view>
+  </view>

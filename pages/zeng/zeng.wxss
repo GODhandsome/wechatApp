@@ -2,6 +2,6 @@
 
 .zenggif {
   background-image: url('https://ws1.sinaimg.cn/large/8fecd030gy1foxheu6s07g20b306oe82.jpg');
-  background-size: 100vw 100vh;
-  background-position: right ;
+  background-size: 140vw 100vh;
+  background-position: center;
 }

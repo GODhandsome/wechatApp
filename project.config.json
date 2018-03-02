@@ -27,7 +27,14 @@
 		},
 		"miniprogram": {
 			"current": -1,
-			"list": []
+			"list": [
+				{
+					"id": -1,
+					"name": "111",
+					"pathName": "pages/zeng/zeng",
+					"query": ""
+				}
+			]
 		}
 	}
 }

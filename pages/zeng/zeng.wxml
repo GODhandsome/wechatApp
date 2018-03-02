@@ -3,7 +3,11 @@
   <view class="bg" />
   <view class="main">
     <view class="gif zenggif">
-      <detail />
-    </view>
+      <detail class="detail" info="{{info}}">
+        <view class="slot">
+          <canvas canvas-id="bg" class="bg"></canvas>
+        </view>
+      </detail>
+    </view>  
   </view>
 </view>
